@@ -1,0 +1,550 @@
+/* 公共样式 */
+.mob-show {
+  display: none !important;
+}
+
+.inner-wrap {
+  width: 62.5vw;
+  margin: 0 auto;
+}
+
+#tab-swiper2 {
+  display: none;
+}
+
+/* KV START */
+.kv-wrap {
+  position: relative;
+  width: 100%;
+
+  .tips {
+    position: absolute;
+    top: 1.7708vw;
+    right: 2.0833vw;
+    font-size: 1.2vw;
+    line-height: 1.5;
+    color: #000;
+  }
+
+  .content {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 12.1875vw;
+    text-align: center;
+
+    h1 {
+      font-size: 2.7604vw;
+      line-height: 1.5;
+      color: #000;
+      font-weight: bold;
+      margin-bottom: 1vw;
+    }
+
+    .int {
+      font-size: 1.2vw;
+      line-height: 1.5;
+      margin-bottom: 1.9270vw;
+    }
+
+    ul {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+
+      li {
+        margin: 0 2.7vw;
+
+        img {
+          display: block;
+          height: 2.9166vw;
+          margin: 0 auto 0.5vw;
+        }
+
+        p {
+          font-size: 1vw;
+          line-height: 1.5;
+          color: #000;
+        }
+      }
+    }
+  }
+
+  .kv {
+    display: block;
+    width: 100%;
+  }
+}
+
+/* KV END */
+
+/* 第二屏 START */
+.detail-wrap {
+  width: 100%;
+  padding: 4.1666vw 0 2.3958vw;
+
+  .inner-wrap {
+    padding: 0 11.25vw;
+    box-sizing: border-box;
+
+    h2 {
+      font-size: 1.6666vw;
+      line-height: 1.5;
+      text-align: center;
+      font-weight: bold;
+      color: #000;
+      margin-bottom: 1.1458vw;
+    }
+
+    .int {
+      font-size: 1.25vw;
+      line-height: 1.5;
+      color: #000;
+      text-align: center;
+      margin-bottom: 2.5vw;
+    }
+
+    .content {
+      font-size: 1.0416vw;
+      line-height: 1.5;
+      color: #000;
+      text-align: center;
+      margin-bottom: 0.8333vw;
+    }
+
+    .tips {
+      font-size: 0.8333vw;
+      line-height: 1.5;
+      color: #666;
+
+      &.chance {
+        display: flex;
+        align-items: flex-start;
+
+        span {
+          display: block;
+
+          &:first-child {
+            margin-right: 0.3vw;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* 第二屏 END */
+
+/* 第三屏 START */
+.detail-list-wrap {
+  width: 100%;
+  padding-bottom: 1.6666vw;
+
+  h2 {
+    font-size: 1.0416vw;
+    line-height: 1.5;
+    color: #000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1.5625vw;
+  }
+
+  .tab-box {
+    display: flex;
+    justify-content: center;
+
+    .btn {
+      font-size: 1vw;
+      line-height: 1;
+      color: #2788d9;
+      margin: 0 2.0833vw;
+      cursor: pointer;
+
+      &.active {
+        position: relative;
+
+        &::before {
+          position: absolute;
+          content: "";
+          left: 0;
+          bottom: -8px;
+          width: 100%;
+          height: 1px;
+          background: #2788d9;
+        }
+      }
+    }
+  }
+}
+
+/* 第三屏 END */
+
+/* 数据列表PC START */
+.list-wrap-pc {
+  width: 100%;
+
+  .list-box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .list {
+      width: 19.7916vw;
+      margin-bottom: 2.8645vw;
+
+      .pic-box {
+        position: relative;
+        width: 100%;
+
+        .pic {
+          width: 100%;
+        }
+
+        .price {
+          position: absolute;
+          top: 0;
+          right: 0;
+          width: 5.5729vw;
+        }
+      }
+
+      .txt {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 1.25vw;
+
+        p {
+          font-size: 1vw;
+          line-height: 1;
+          text-align: center;
+        }
+
+        img {
+          display: block;
+          width: 0.8333vw;
+          cursor: pointer;
+          margin-left: 0.5208vw;
+        }
+      }
+    }
+
+    &.chance {
+      display: none;
+
+      .list {
+        width: 14.5833vw;
+      }
+    }
+  }
+}
+
+/* 数据列表PC END */
+
+/* 数据列表mob START */
+.list-wrap-mob {
+  display: none;
+  width: 100%;
+
+  .swiper {
+    position: relative;
+    width: 100%;
+
+    .list {
+      width: 59.9520vw;
+      margin: 0 auto;
+      padding-bottom: 10.3966vw;
+
+      .pic-box {
+        position: relative;
+        width: 100%;
+
+        .pic {
+          display: block;
+          width: 100%;
+        }
+
+        .price {
+          position: absolute;
+          top: 0;
+          right: 0;
+          display: block;
+          width: 16.7865vw;
+          height: 16.7865vw;
+        }
+      }
+
+      .txt {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        padding-top: 3.8369vw;
+
+        p {
+          font-size: 3.333vw;
+          line-height: 1;
+          text-align: center;
+        }
+
+        img {
+          display: block;
+          width: 2.3980vw;
+          cursor: pointer;
+          margin-left: 1.9184vw;
+        }
+      }
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+      bottom: 0;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #666;
+    }
+
+    .swiper-pagination-bullet {
+      background: #b2b2b2;
+    }
+
+    .swiper-slide {
+      background: #fff;
+    }
+  }
+}
+
+/* 数据列表mob END */
+
+/* 轮播图 START */
+.phone-swiper-wrap {
+  width: 100%;
+  padding: 4.6875vw 0;
+
+  h2 {
+    font-size: 1.0416vw;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 1.875vw;
+  }
+
+  .swiper {
+    position: relative;
+    width: 100%;
+
+    .swiper-slide {
+      background: #fff;
+      padding-bottom: 8vw;
+
+      .pic {
+        display: block;
+        width: 16.25vw;
+        margin: 0 auto 1.0416vw;
+
+      }
+
+      p {
+        font-size: 1vw;
+        line-height: 1.5;
+        text-align: center;
+        color: #000;
+      }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      width: 1.0416vw;
+    }
+
+    .swiper-pagination-bullet {
+      background: #b2b2b2;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #666;
+    }
+
+    .swiper-button-next {
+      background: url("/content/dam/huawei-cbg-site/other/jp/support/service-thanks-giving-season-ios/img/arr-right.png") no-repeat;
+      background-size: 100% auto;
+    }
+
+    .swiper-button-prev {
+      background: url("/content/dam/huawei-cbg-site/other/jp/support/service-thanks-giving-season-ios/img/arr-left.png") no-repeat;
+      background-size: 100% auto;
+    }
+
+    .swiper-button-prev:after,
+    .swiper-rtl .swiper-button-next:after {
+      content: "";
+    }
+
+    .swiper-button-next:after,
+    .swiper-rtl .swiper-button-prev:after {
+      content: "";
+    }
+
+  }
+}
+
+/* 轮播图 END */
+
+@media screen and (max-width: 834px) {
+
+  .pc-show {
+    display: none !important;
+  }
+
+  .mob-show {
+    display: block !important;
+  }
+
+  .inner-wrap {
+    width: 90%;
+  }
+
+  .list-wrap-pc {
+    display: none;
+  }
+
+  .list-wrap-mob {
+    display: block;
+  }
+
+  .kv-wrap {
+
+    .content {
+      width: 100%;
+      top: 12vw;
+      transform: none;
+      right: 0;
+
+      h1 {
+        font-size: 7vw;
+        margin-bottom: 4vw;
+      }
+
+      .int {
+        font-size: 3.333vw;
+        margin-bottom: 3.5vw;
+      }
+
+      ul {
+
+        li {
+          margin: 0 3.2vw;
+
+          img {
+            width: 7.4667vw;
+            height: 7.4667vw;
+            margin-bottom: 1.5vw;
+          }
+
+          p {
+            font-size: 2.667vw;
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+
+    .tips {
+      font-size: 2.667vw;
+      top: 4.5333vw;
+      right: 5.3333vw;
+    }
+
+  }
+
+  .detail-wrap {
+    width: 100%;
+    padding: 10vw 0;
+
+    .inner-wrap {
+      padding: 0;
+
+      h2 {
+        font-size: 4.8vw;
+        margin-bottom: 5vw;
+      }
+
+      .int {
+        font-size: 3.333vw;
+        margin-bottom: 5vw;
+      }
+
+      .content {
+        font-size: 3.333vw;
+      }
+
+      .tips {
+        font-size: 3.333vw;
+
+        &.chance {
+
+          span:first-child {
+            margin-right: 1vw;
+          }
+        }
+      }
+    }
+  }
+
+  .detail-list-wrap {
+    padding-bottom: 8vw;
+
+    h2 {
+      font-size: 4.8vw;
+      margin-bottom: 5vw;
+    }
+
+    .tab-box {
+      display: block;
+      text-align: center;
+
+      .btn {
+        display: inline-block;
+        font-size: 3.333vw;
+        margin-bottom: 5vw;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+
+  .phone-swiper-wrap {
+    padding: 10vw 0;
+
+    h2 {
+      font-size: 3.333vw;
+      margin-bottom: 5vw;
+    }
+
+    .swiper {
+
+      .swiper-slide {
+
+        .pic {
+          width: 40%;
+          margin-bottom: 3vw;
+        }
+
+        p {
+          font-size: 3.333vw;
+        }
+      }
+
+      .swiper-button-next,
+      .swiper-button-prev {
+        width: 16px;
+      }
+    }
+  }
+
+}

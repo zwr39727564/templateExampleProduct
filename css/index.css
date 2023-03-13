@@ -1,0 +1,431 @@
+/* 公共样式 */
+.mob-show {
+  display: none !important;
+}
+.inner-wrap {
+  width: 62.5vw;
+  margin: 0 auto;
+}
+#tab-swiper2 {
+  display: none;
+}
+/* KV START */
+.kv-wrap {
+  position: relative;
+  width: 100%;
+}
+.kv-wrap .tips {
+  position: absolute;
+  top: 1.7708vw;
+  right: 2.0833vw;
+  font-size: 1.2vw;
+  line-height: 1.5;
+  color: #000;
+}
+.kv-wrap .content {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 12.1875vw;
+  text-align: center;
+}
+.kv-wrap .content h1 {
+  font-size: 2.7604vw;
+  line-height: 1.5;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 1vw;
+}
+.kv-wrap .content .int {
+  font-size: 1.2vw;
+  line-height: 1.5;
+  margin-bottom: 1.927vw;
+}
+.kv-wrap .content ul {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.kv-wrap .content ul li {
+  margin: 0 2.7vw;
+}
+.kv-wrap .content ul li img {
+  display: block;
+  height: 2.9166vw;
+  margin: 0 auto 0.5vw;
+}
+.kv-wrap .content ul li p {
+  font-size: 1vw;
+  line-height: 1.5;
+  color: #000;
+}
+.kv-wrap .kv {
+  display: block;
+  width: 100%;
+}
+/* KV END */
+/* 第二屏 START */
+.detail-wrap {
+  width: 100%;
+  padding: 4.1666vw 0 2.3958vw;
+}
+.detail-wrap .inner-wrap {
+  padding: 0 11.25vw;
+  box-sizing: border-box;
+}
+.detail-wrap .inner-wrap h2 {
+  font-size: 1.6666vw;
+  line-height: 1.5;
+  text-align: center;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 1.1458vw;
+}
+.detail-wrap .inner-wrap .int {
+  font-size: 1.25vw;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+  margin-bottom: 2.5vw;
+}
+.detail-wrap .inner-wrap .content {
+  font-size: 1.0416vw;
+  line-height: 1.5;
+  color: #000;
+  text-align: center;
+  margin-bottom: 0.8333vw;
+}
+.detail-wrap .inner-wrap .tips {
+  font-size: 0.8333vw;
+  line-height: 1.5;
+  color: #666;
+}
+.detail-wrap .inner-wrap .tips.chance {
+  display: flex;
+  align-items: flex-start;
+}
+.detail-wrap .inner-wrap .tips.chance span {
+  display: block;
+}
+.detail-wrap .inner-wrap .tips.chance span:first-child {
+  margin-right: 0.3vw;
+}
+/* 第二屏 END */
+/* 第三屏 START */
+.detail-list-wrap {
+  width: 100%;
+  padding-bottom: 1.6666vw;
+}
+.detail-list-wrap h2 {
+  font-size: 1.0416vw;
+  line-height: 1.5;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5625vw;
+}
+.detail-list-wrap .tab-box {
+  display: flex;
+  justify-content: center;
+}
+.detail-list-wrap .tab-box .btn {
+  font-size: 1vw;
+  line-height: 1;
+  color: #2788d9;
+  margin: 0 2.0833vw;
+  cursor: pointer;
+}
+.detail-list-wrap .tab-box .btn.active {
+  position: relative;
+}
+.detail-list-wrap .tab-box .btn.active::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 1px;
+  background: #2788d9;
+}
+/* 第三屏 END */
+/* 数据列表PC START */
+.list-wrap-pc {
+  width: 100%;
+}
+.list-wrap-pc .list-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.list-wrap-pc .list-box .list {
+  width: 19.7916vw;
+  margin-bottom: 2.8645vw;
+}
+.list-wrap-pc .list-box .list .pic-box {
+  position: relative;
+  width: 100%;
+}
+.list-wrap-pc .list-box .list .pic-box .pic {
+  width: 100%;
+}
+.list-wrap-pc .list-box .list .pic-box .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 5.5729vw;
+}
+.list-wrap-pc .list-box .list .txt {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-top: 1.25vw;
+}
+.list-wrap-pc .list-box .list .txt p {
+  font-size: 1vw;
+  line-height: 1;
+  text-align: center;
+}
+.list-wrap-pc .list-box .list .txt img {
+  display: block;
+  width: 0.8333vw;
+  cursor: pointer;
+  margin-left: 0.5208vw;
+}
+.list-wrap-pc .list-box.chance {
+  display: none;
+}
+.list-wrap-pc .list-box.chance .list {
+  width: 14.5833vw;
+}
+/* 数据列表PC END */
+/* 数据列表mob START */
+.list-wrap-mob {
+  display: none;
+  width: 100%;
+}
+.list-wrap-mob .swiper {
+  position: relative;
+  width: 100%;
+}
+.list-wrap-mob .swiper .list {
+  width: 59.952vw;
+  margin: 0 auto;
+  padding-bottom: 10.3966vw;
+}
+.list-wrap-mob .swiper .list .pic-box {
+  position: relative;
+  width: 100%;
+}
+.list-wrap-mob .swiper .list .pic-box .pic {
+  display: block;
+  width: 100%;
+}
+.list-wrap-mob .swiper .list .pic-box .price {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: block;
+  width: 16.7865vw;
+  height: 16.7865vw;
+}
+.list-wrap-mob .swiper .list .txt {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  padding-top: 3.8369vw;
+}
+.list-wrap-mob .swiper .list .txt p {
+  font-size: 3.333vw;
+  line-height: 1;
+  text-align: center;
+}
+.list-wrap-mob .swiper .list .txt img {
+  display: block;
+  width: 2.398vw;
+  cursor: pointer;
+  margin-left: 1.9184vw;
+}
+.list-wrap-mob .swiper .swiper-horizontal > .swiper-pagination-bullets,
+.list-wrap-mob .swiper .swiper-pagination-bullets.swiper-pagination-horizontal,
+.list-wrap-mob .swiper .swiper-pagination-custom,
+.list-wrap-mob .swiper .swiper-pagination-fraction {
+  bottom: 0;
+}
+.list-wrap-mob .swiper .swiper-pagination-bullet-active {
+  background: #666;
+}
+.list-wrap-mob .swiper .swiper-pagination-bullet {
+  background: #b2b2b2;
+}
+.list-wrap-mob .swiper .swiper-slide {
+  background: #fff;
+}
+/* 数据列表mob END */
+/* 轮播图 START */
+.phone-swiper-wrap {
+  width: 100%;
+  padding: 4.6875vw 0;
+}
+.phone-swiper-wrap h2 {
+  font-size: 1.0416vw;
+  line-height: 1.5;
+  text-align: center;
+  margin-bottom: 1.875vw;
+}
+.phone-swiper-wrap .swiper {
+  position: relative;
+  width: 100%;
+}
+.phone-swiper-wrap .swiper .swiper-slide {
+  background: #fff;
+  padding-bottom: 8vw;
+}
+.phone-swiper-wrap .swiper .swiper-slide .pic {
+  display: block;
+  width: 16.25vw;
+  margin: 0 auto 1.0416vw;
+}
+.phone-swiper-wrap .swiper .swiper-slide p {
+  font-size: 1vw;
+  line-height: 1.5;
+  text-align: center;
+  color: #000;
+}
+.phone-swiper-wrap .swiper .swiper-button-next,
+.phone-swiper-wrap .swiper .swiper-button-prev {
+  width: 1.0416vw;
+}
+.phone-swiper-wrap .swiper .swiper-pagination-bullet {
+  background: #b2b2b2;
+}
+.phone-swiper-wrap .swiper .swiper-pagination-bullet-active {
+  background: #666;
+}
+.phone-swiper-wrap .swiper .swiper-button-next {
+  background: url("/content/dam/huawei-cbg-site/other/jp/support/service-thanks-giving-season-ios/img/arr-right.png") no-repeat;
+  background-size: 100% auto;
+}
+.phone-swiper-wrap .swiper .swiper-button-prev {
+  background: url("/content/dam/huawei-cbg-site/other/jp/support/service-thanks-giving-season-ios/img/arr-left.png") no-repeat;
+  background-size: 100% auto;
+}
+.phone-swiper-wrap .swiper .swiper-button-prev:after,
+.phone-swiper-wrap .swiper .swiper-rtl .swiper-button-next:after {
+  content: "";
+}
+.phone-swiper-wrap .swiper .swiper-button-next:after,
+.phone-swiper-wrap .swiper .swiper-rtl .swiper-button-prev:after {
+  content: "";
+}
+/* 轮播图 END */
+@media screen and (max-width: 834px) {
+  .pc-show {
+    display: none !important;
+  }
+  .mob-show {
+    display: block !important;
+  }
+  .inner-wrap {
+    width: 90%;
+  }
+  .list-wrap-pc {
+    display: none;
+  }
+  .list-wrap-mob {
+    display: block;
+  }
+  .kv-wrap .content {
+    width: 100%;
+    top: 12vw;
+    transform: none;
+    right: 0;
+  }
+  .kv-wrap .content h1 {
+    font-size: 7vw;
+    margin-bottom: 4vw;
+  }
+  .kv-wrap .content .int {
+    font-size: 3.333vw;
+    margin-bottom: 3.5vw;
+  }
+  .kv-wrap .content ul li {
+    margin: 0 3.2vw;
+  }
+  .kv-wrap .content ul li img {
+    width: 7.4667vw;
+    height: 7.4667vw;
+    margin-bottom: 1.5vw;
+  }
+  .kv-wrap .content ul li p {
+    font-size: 2.667vw;
+    line-height: 1.5;
+  }
+  .kv-wrap .tips {
+    font-size: 2.667vw;
+    top: 4.5333vw;
+    right: 5.3333vw;
+  }
+  .detail-wrap {
+    width: 100%;
+    padding: 10vw 0;
+  }
+  .detail-wrap .inner-wrap {
+    padding: 0;
+  }
+  .detail-wrap .inner-wrap h2 {
+    font-size: 4.8vw;
+    margin-bottom: 5vw;
+  }
+  .detail-wrap .inner-wrap .int {
+    font-size: 3.333vw;
+    margin-bottom: 5vw;
+  }
+  .detail-wrap .inner-wrap .content {
+    font-size: 3.333vw;
+  }
+  .detail-wrap .inner-wrap .tips {
+    font-size: 3.333vw;
+  }
+  .detail-wrap .inner-wrap .tips.chance span:first-child {
+    margin-right: 1vw;
+  }
+  .detail-list-wrap {
+    padding-bottom: 8vw;
+  }
+  .detail-list-wrap h2 {
+    font-size: 4.8vw;
+    margin-bottom: 5vw;
+  }
+  .detail-list-wrap .tab-box {
+    display: block;
+    text-align: center;
+  }
+  .detail-list-wrap .tab-box .btn {
+    display: inline-block;
+    font-size: 3.333vw;
+    margin-bottom: 5vw;
+  }
+  .detail-list-wrap .tab-box .btn:last-child {
+    margin-bottom: 0;
+  }
+  .phone-swiper-wrap {
+    padding: 10vw 0;
+  }
+  .phone-swiper-wrap h2 {
+    font-size: 3.333vw;
+    margin-bottom: 5vw;
+  }
+  .phone-swiper-wrap .swiper .swiper-slide .pic {
+    width: 40%;
+    margin-bottom: 3vw;
+  }
+  .phone-swiper-wrap .swiper .swiper-slide p {
+    font-size: 3.333vw;
+  }
+  .phone-swiper-wrap .swiper .swiper-button-next,
+  .phone-swiper-wrap .swiper .swiper-button-prev {
+    width: 16px;
+  }
+}

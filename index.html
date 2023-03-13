@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+  
+  <link rel="stylesheet" href="./css/reset.css">
+
+  <div class="kv-wrap">
+    <div class="content">
+      <h1>
+        大标题
+      </h1>
+      <p class="int">
+        大标题介绍文字
+      </p>
+      <ul>
+        <li>
+          <img src="./img/batteryicon.svg" alt="">
+          <p>
+            描述1
+          </p>
+        </li>
+        <li>
+          <img src="./img/watchicon.svg" alt="">
+          <p>
+            描述2
+          </p>
+        </li>
+        <li>
+          <img src="./img/couponicon.svg" alt="">
+          <p>
+            描述3
+          </p>
+        </li>
+      </ul>
+    </div>
+    <p class="tips">
+      提示文字
+    </p>
+    <img src="./img/kv-pc.jpg" alt="" class="kv pc-show">
+    <img src="./img/kv-mob.jpg" alt="" class="kv mob-show">
+  </div>
+
+  <div class="detail-wrap">
+    <div class="inner-wrap">
+      <h2>
+        活动标题1
+      </h2>
+      <p class="int">
+        活动描述文字
+      </p>
+      <p class="content">
+        活动正文内容
+      </p>
+      <p class="tips">
+        ※ 活动提示文字<br>
+      </p>
+      <p class="tips chance">
+        <span>※</span>
+        <span>活动提示文字2</span>
+      </p>
+    </div>
+  </div>
+
+  <div class="detail-list-wrap">
+    <div class="inner-wrap">
+      <h2>
+        活动标题2
+      </h2>
+      <div class="tab-box">
+        <div class="btn active">
+          按钮文字
+        </div>
+        <div class="btn">
+          按钮文字
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="list-wrap-pc">
+    <div class="inner-wrap">
+        <!-- 文案内容在JS里面替换 -->
+      <div class="list-box" id="tab1"></div>
+        <!-- 文案内容在JS里面替换 -->
+      <div class="list-box chance" id="tab2"></div>
+    </div>
+  </div>
+
+  <div class="list-wrap-mob">
+    <div class="inner-wrap">
+      <div class="swiper" id="tab-swiper1">
+        <!-- 文案内容在JS里面替换 -->
+        <div class="swiper-wrapper" id="tab1-wrapper"></div>
+        <!-- 轮播点 -->
+        <div class="swiper-pagination swiper-pagination1"></div>
+      </div>
+      <div class="swiper" id="tab-swiper2">
+        <!-- 文案内容在JS里面替换 -->
+        <div class="swiper-wrapper" id="tab2-wrapper"></div>
+        <!-- 轮播点 -->
+        <div class="swiper-pagination swiper-pagination2"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="phone-swiper-wrap">
+    <div class="inner-wrap">
+      <h2>
+        内容标题3
+      </h2>
+      <div class="swiper" id="phone-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./img/phone1.png" alt="" class="pic">
+            <p>
+              内容描述1
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/phone1.png" alt="" class="pic">
+            <p>
+              内容描述2
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img src="./img/phone1.png" alt="" class="pic">
+            <p>
+              内容描述3
+            </p>
+          </div>
+        </div>
+        <div class="swiper-pagination swiper-pagination-phone mob-show"></div>
+
+        <div class="swiper-button-prev swiper-button-prev2 pc-show"></div>
+        <div class="swiper-button-next swiper-button-next2 pc-show"></div>
+
+      </div>
+    </div>
+  </div>
+
+  <template id="pc-template">
+    <div class="list">
+      <div class="pic-box">
+        <img src="./img/pic1.png" alt="" class="pic">
+        <img src="./img/price.png" alt="" class="price">
+      </div>
+      <div class="txt"></div>
+    </div>
+  </template>
+
+  <template id="mob-template">
+    <div class="swiper-slide">
+      <div class="list">
+        <div class="pic-box">
+          <img src="./img/pic1.png" alt="" class="pic">
+          <img src="./img/price50.png" alt="" class="price">
+        </div>
+        <div class="txt">
+          <p>
+            内容文字
+          </p>
+          <img src="./img/copy-btn.svg" alt="" class="copy-btn">
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script src="./js/jquery-1.9.1.min.js"></script>
+  <script src="./js/swiper-bundle.js"></script>
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>
